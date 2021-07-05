@@ -46,4 +46,16 @@ else
     alert("correct")
 }
 
+let color=prompt("What's your favorite color black or blue?")
+if(color == "black")
+{
+    alert("you chose black");
+}
+else if(color == "blue"){alert("You chose blue")
+
+}
+else
+{
+    alert("invalid color")
+}
 alert("Thank you for playing " +username)
