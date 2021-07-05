@@ -26,8 +26,8 @@ if(major === true)
     {
         alert("incorrect answer")
     }
-let course=prompt("What kind of programming do you study ? (Java, HTML, Python or JS)")
-if(course == "java"|| "html" || "python" || "js")
+let course=prompt("What kind of programming do you study ?  HTMLor JS")
+if(course ==  "html" || "js")
 {
     alert("OK")
 }
