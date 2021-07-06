@@ -33,3 +33,10 @@ I build this app to let the users and visitors to my webpage know more about me 
           I will evaluate what I want to learn continuously
 
         - GitHub,Canvas,Windows Terminal (Ubuntu),VS Code.
+
+        - We are adding the following features to our project:
+            - For Loop.
+            - Nested For Loop.
+            - While Loop.
+            - Array.
+             
