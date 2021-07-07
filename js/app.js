@@ -2,9 +2,8 @@
 let score = 0;
 let userName = prompt("What is your name?");
 alert("Hello, " + userName + " welcome to our website");
-
+function question1(){
 let favouriteColor = prompt('Is my favourite color blue?');
-
 favouriteColor = favouriteColor.toLowerCase();
 if (favouriteColor === 'yes' || favouriteColor === 'y') {
     console.log('favourite color:', favouriteColor);
@@ -17,9 +16,13 @@ if (favouriteColor === 'yes' || favouriteColor === 'y') {
 } else {
     alert('please only write yes/y or no/n');
 }
+}
+question1();
 
 
 
+
+function question2(){
 let favouriteCar = prompt('Is my favourite car Mercedes?');
 
 favouriteCar = favouriteCar.toLowerCase();
@@ -34,8 +37,15 @@ if (favouriteCar === 'y' || favouriteCar === 'yes') {
 } else {
     alert("Please only answer with y/n or yes/no");
 }
+}
+question2();  
 
 
+
+
+
+
+function question3(){
 let favouriteFruit = prompt('Is my favourite fruit banana?');
 
 favouriteFruit = favouriteFruit.toLowerCase();
@@ -51,7 +61,13 @@ if (favouriteFruit === 'y' || favouriteFruit === 'yes') {
 } else {
     alert("Please only answer with y/n or yes/no");
 }
+}
+question3();
 
+
+
+
+function question4(){
 let favouriteHobby = prompt('Is my favourite hobby drawing?');
 
 favouriteHobby = favouriteHobby.toLowerCase();
@@ -66,7 +82,13 @@ if (favouriteHobby === 'y' || favouriteHobby === 'yes') {
 } else {
     alert("Please only answer with y/n or yes/no");
 }
+}
+question4();
 
+
+
+
+function question5(){
 let favouriteDrink = prompt('Is my favourite drink coffee?');
 
 favouriteDrink = favouriteDrink.toLowerCase();
@@ -81,9 +103,15 @@ if (favouriteDrink === 'y' || favouriteDrink === 'yes') {
 } else {
     alert("Please only answer with y/n or yes/no");
 }
+}
+question5();
+
+
+
+
 
 alert("Welcome back " + userName + " now we will begin the part 2 of the questions");
-
+function question6(){
 
 for (let i = 0; i < 4; i++) {
     let guessNumber = prompt("Guess a number between 1 and 10\nHint: You have 4 attempts allowed");
@@ -102,12 +130,18 @@ for (let i = 0; i < 4; i++) {
         score++;
         break;
     }
-
 }
+}
+
+question6()
+
+
+
 
 alert("The correct answer is 6");
 
 
+function question7(){
 let city = ['paris', 'london', 'new york', 'madrid'];
 
 for (let j = 0; j < 6; j++) {
@@ -127,7 +161,8 @@ for (let k = 0; k < city.length; k++) {
     console.log(city[k]);
 }
 
-
+}
+question7();
 alert(`You have a score of ${score} /7`);
 console.log(`you have a score of ${score} /7`);
 
