@@ -34,7 +34,7 @@ if (favouriteCar === 'y' || favouriteCar === 'yes') {
     alert("Please only answer with y/n or yes/no");
 }
 }
-question2()
+question2();
 function question3(){
 let favouriteFruit = prompt('Is my favourite fruit banana?');
 
@@ -52,7 +52,8 @@ if (favouriteFruit === 'y' || favouriteFruit === 'yes') {
     alert("Please only answer with y/n or yes/no");
 }
 }
-
+question3();
+function question4(){
 let favouriteHobby = prompt('Is my favourite hobby drawing?');
 
 favouriteHobby = favouriteHobby.toLowerCase();
@@ -67,6 +68,8 @@ if (favouriteHobby === 'y' || favouriteHobby === 'yes') {
 } else {
     alert("Please only answer with y/n or yes/no");
 }
+}
+question4();
 
 let favouriteDrink = prompt('Is my favourite drink coffee?');
 
