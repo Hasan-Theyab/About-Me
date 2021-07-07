@@ -110,9 +110,8 @@ question5();
 
 
 
-
 alert("Welcome back " + userName + " now we will begin the part 2 of the questions");
-
+function question6(){
 
 for (let i = 0; i < 4; i++) {
     let guessNumber = prompt("Guess a number between 1 and 10\nHint: You have 4 attempts allowed");
@@ -131,11 +130,12 @@ for (let i = 0; i < 4; i++) {
         score++;
         break;
     }
-
+}
 }
 
-alert("The correct answer is 6");
+question6()
 
+alert("The correct answer is 6");
 
 let city = ['paris', 'london', 'new york', 'madrid'];
 
