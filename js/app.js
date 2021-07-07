@@ -18,6 +18,10 @@ if (favouriteColor === 'yes' || favouriteColor === 'y') {
 }
 }
 question1();
+
+
+
+
 function question2(){
 let favouriteCar = prompt('Is my favourite car Mercedes?');
 
@@ -34,7 +38,13 @@ if (favouriteCar === 'y' || favouriteCar === 'yes') {
     alert("Please only answer with y/n or yes/no");
 }
 }
-question2();
+question2();  
+
+
+
+
+
+
 function question3(){
 let favouriteFruit = prompt('Is my favourite fruit banana?');
 
@@ -53,6 +63,10 @@ if (favouriteFruit === 'y' || favouriteFruit === 'yes') {
 }
 }
 question3();
+
+
+
+
 function question4(){
 let favouriteHobby = prompt('Is my favourite hobby drawing?');
 
@@ -71,6 +85,10 @@ if (favouriteHobby === 'y' || favouriteHobby === 'yes') {
 }
 question4();
 
+
+
+
+function question5(){
 let favouriteDrink = prompt('Is my favourite drink coffee?');
 
 favouriteDrink = favouriteDrink.toLowerCase();
@@ -85,6 +103,13 @@ if (favouriteDrink === 'y' || favouriteDrink === 'yes') {
 } else {
     alert("Please only answer with y/n or yes/no");
 }
+}
+question5();
+
+
+
+
+
 
 alert("Welcome back " + userName + " now we will begin the part 2 of the questions");
 
