@@ -35,7 +35,7 @@ if (favouriteCar === 'y' || favouriteCar === 'yes') {
 }
 }
 question2()
-
+function question3(){
 let favouriteFruit = prompt('Is my favourite fruit banana?');
 
 favouriteFruit = favouriteFruit.toLowerCase();
@@ -50,6 +50,7 @@ if (favouriteFruit === 'y' || favouriteFruit === 'yes') {
 
 } else {
     alert("Please only answer with y/n or yes/no");
+}
 }
 
 let favouriteHobby = prompt('Is my favourite hobby drawing?');
