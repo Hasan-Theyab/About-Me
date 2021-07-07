@@ -2,9 +2,8 @@
 let score = 0;
 let userName = prompt("What is your name?");
 alert("Hello, " + userName + " welcome to our website");
-
+function question1(){
 let favouriteColor = prompt('Is my favourite color blue?');
-
 favouriteColor = favouriteColor.toLowerCase();
 if (favouriteColor === 'yes' || favouriteColor === 'y') {
     console.log('favourite color:', favouriteColor);
@@ -17,8 +16,8 @@ if (favouriteColor === 'yes' || favouriteColor === 'y') {
 } else {
     alert('please only write yes/y or no/n');
 }
-
-
+}
+question1();
 
 let favouriteCar = prompt('Is my favourite car Mercedes?');
 
