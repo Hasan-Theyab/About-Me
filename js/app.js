@@ -135,8 +135,13 @@ for (let i = 0; i < 4; i++) {
 
 question6()
 
+
+
+
 alert("The correct answer is 6");
 
+
+function question7(){
 let city = ['paris', 'london', 'new york', 'madrid'];
 
 for (let j = 0; j < 6; j++) {
@@ -156,7 +161,8 @@ for (let k = 0; k < city.length; k++) {
     console.log(city[k]);
 }
 
-
+}
+question7();
 alert(`You have a score of ${score} /7`);
 console.log(`you have a score of ${score} /7`);
 
