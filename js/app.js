@@ -18,7 +18,7 @@ if (favouriteColor === 'yes' || favouriteColor === 'y') {
 }
 }
 question1();
-
+function question2(){
 let favouriteCar = prompt('Is my favourite car Mercedes?');
 
 favouriteCar = favouriteCar.toLowerCase();
@@ -33,7 +33,8 @@ if (favouriteCar === 'y' || favouriteCar === 'yes') {
 } else {
     alert("Please only answer with y/n or yes/no");
 }
-
+}
+question2()
 
 let favouriteFruit = prompt('Is my favourite fruit banana?');
 
