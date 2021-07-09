@@ -8,11 +8,9 @@ function question1(){
   let favouriteColor = prompt('Is my favourite color blue?');
   favouriteColor = favouriteColor.toLowerCase();
   if (favouriteColor === 'yes' || favouriteColor === 'y') {
-    console.log('favourite color:', favouriteColor);
     alert('Good job,correct answer');
     score++;
   } else if (favouriteColor === 'no' || favouriteColor === 'n') {
-    console.log('favourite color:', favouriteColor);
     alert('Wrong answer');
 
   } else {
@@ -30,10 +28,8 @@ function question2(){
   favouriteCar = favouriteCar.toLowerCase();
 
   if (favouriteCar === 'y' || favouriteCar === 'yes') {
-    console.log('You answered wrong answer');
     alert('That is a wrong answer');
   } else if (favouriteCar === 'n' || favouriteCar === 'no') {
-    console.log('You answered correct answer');
     alert('Good job, that\'s a correct answer');
     score++;
   } else {
@@ -49,11 +45,9 @@ function question3(){
   favouriteFruit = favouriteFruit.toLowerCase();
 
   if (favouriteFruit === 'y' || favouriteFruit === 'yes') {
-    console.log('You answered correct answer');
     alert('Good job, that\'s a correct answer');
     score++;
   } else if (favouriteFruit === 'n' || favouriteFruit === 'no') {
-    console.log('You answered wrong answer');
     alert('That\'s a wrong answer');
 
   } else {
@@ -69,10 +63,8 @@ function question4(){
   favouriteHobby = favouriteHobby.toLowerCase();
 
   if (favouriteHobby === 'y' || favouriteHobby === 'yes') {
-    console.log('You answered wrong answer');
     alert('That\'s a wrong answer');
   } else if (favouriteHobby === 'n' || favouriteHobby === 'no') {
-    console.log('You answered correct answer');
     alert('Good job, that\'s a correct answer');
     score++;
   } else {
@@ -87,10 +79,8 @@ function question5(){
   favouriteDrink = favouriteDrink.toLowerCase();
 
   if (favouriteDrink === 'y' || favouriteDrink === 'yes') {
-    console.log('You answered wrong answer');
     alert('That\'s a wrong answer');
   } else if (favouriteDrink === 'n' || favouriteDrink === 'no') {
-    console.log('You answered correct answer');
     alert('Good job, that\'s a correct answer');
     score++;
   } else {
@@ -112,12 +102,9 @@ function question6(){
     }
     if (guessNumber < 6) {
       alert('Too Low');
-      console.log('wrong answer: too low');
     } else if (guessNumber > 6) {
       alert('Too High');
-      console.log('Wrong answer:  too high');
     } else if (guessNumber === 6) {
-      console.log('Correct answer');
       alert('Correct answer');
       score++;
       break;
@@ -150,13 +137,9 @@ function question7(){
 question7();
 
 alert(city);
-console.log(city);
-
-
-
 
 alert(`You have a score of ${score} /7`);
-console.log(`you have a score of ${score} /7`);
+
 
 
 
